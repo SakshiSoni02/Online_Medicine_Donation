@@ -1,0 +1,380 @@
+/*common Style start*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    --themered: #e43a47;
+    --gray:#efefef;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "poppins",sans-serif;
+  
+
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.fullcontainer{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+/*common Style ends*/
+/*home style starts*/
+#navbar{
+    margin: 3px 4px;
+    padding: 10px;
+}
+ header{
+    width: 100%;
+    background-color:rgba(0, 0,0,0.6);
+    position: fixed;
+    z-index: 2;
+    height:100px ;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+
+}
+header .container .logo {
+    padding: 10px 0px ;
+        height: 100px;
+        width: 200px;
+    margin: 0px;
+}
+header .container .logo img {
+    height: 100%;
+    margin-left: 10px;
+}
+header nav ul li {
+    display: inline-block;
+    height: 50px;
+}
+header nav ul li a {
+display: inline-block;
+height: 75px;
+line-height: 75px;
+padding: 0 15px;
+text-decoration: none;
+text-transform: capitalize;
+font-size: 16px;
+color: white;
+transition: 0.3s;
+}
+.container ul li a:hover {
+    background-color:#e43a47 ;
+}
+.container ul li {
+    
+}
+.banner {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../image/3333333.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner h1 {
+    margin-top: 170px;
+    margin-bottom: 0px;
+    margin-right: 130;
+    display: inline-block;
+    font-size: 3.5rem;
+    color:#efefef;
+    text-shadow: 0 0 2px;
+    width: 50%;
+    line-height: 82px; 
+font-weight: 100;
+}
+.banner h1 span{
+    background-color: var(--themered);
+    line-height: 3.5rem;
+    padding: 0 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.banner p {
+
+    font-size: 1.5rem;
+    color: white;
+    width: 50%;
+    text-shadow: 0 0 2px #000;
+    margin-top: 1px;
+    }
+.buttons {
+    background-color: #e43a47;
+    border: 0;
+    outline: none;
+    color: #efefef;
+    padding: 10px 15px;
+    margin-top: 20px;
+    font-size: 13px;
+
+}
+.banner button:hover{
+    background-color:black ;
+    
+}
+/*home style ends*/
+
+/* About section starts here*/
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 50px;
+    background-image: url(../image/backgroundabout.jpeg);
+    background-size: cover;
+    background-attachment: unset;
+    
+}
+#pic {
+    display: flex;
+    background-color: #efefef;
+}
+#pic img{
+width: 575px;
+height: 300px;
+padding: 20px;
+}
+.headings{
+    font-family: century;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 40px 0px;
+    background-color: #e43a47;
+    }
+#intro {
+    display: flex;
+    margin-top: 100px;
+    text-align: justify;
+    padding: 20px;
+    font-weight: 500;
+}
+.lines{
+    color: black;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#pic p {
+    font-weight: 300;
+}
+#pic .buttons{
+    align-items: baseline;
+    padding : 0px 15px ;
+    margin-top: 30px;
+    box-sizing: content-box;
+}
+
+/* About section ends here*/
+
+/* NGO section Starts here*/
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0,0,0.6 ) ;
+
+}
+.navbar ul {
+display: flex;
+list-style: none;
+margin: 20px 0px;
+}
+.navbar ul li {
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+
+}
+.navbar ul li a:hover{
+    background-color: #e43a47;
+    color: black;
+    box-shadow: 0 0 10px white;
+
+}
+#ngo {
+    background-image: url(../image/medicine.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ #ngo h1 {
+    margin-top: 170px;
+    margin-bottom: 0px;
+    margin-right: 130;
+    display: inline-block;
+    font-size: 2.5rem;
+    color:white;
+    text-shadow: 0 0 2px;
+    width: 50%;
+    line-height: 82px; 
+font-weight: 100;
+font-style: italic;
+font-family:Tangerine;
+ }   
+ #admin{
+     background-image: url(../image/medicine.jpg);
+ }
+ #admin h1 {
+    margin-top: 170px;
+    margin-bottom: 0px;
+    margin-right: 130;
+    display: inline-block;
+    font-size: 2.5rem;
+    color:#0f0f0f;
+    text-shadow: 0 0 2px;
+    width: 50%;
+    line-height: 82px; 
+font-weight: 100;
+font-style: italic;
+font-family:Tangerine;
+
+ }
+
+
+
+/* NGO section ends here*/
+
+/* Doner section starts here*/
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0,0,0.6 );
+
+}
+.navbar ul {
+display: flex;
+list-style: none;
+margin: 20px 0px;
+}
+.navbar ul li {
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+
+}
+.navbar ul li a:hover{
+    background-color: red;
+    color: black;
+    box-shadow: 0 0 10px white;
+
+}
+ #donor {
+    background-image: url(../image/medicine.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ 
+
+ #donor h1 {
+    margin-top: 170px;
+    margin-bottom: 0px;
+    margin-right: 130;
+    display: inline-block;
+    font-size: 2.5rem;
+    color:#0f0f0f;
+    text-shadow: 0 0 2px;
+    width: 50%;
+    line-height: 82px; 
+font-weight: 100;
+font-style: italic;
+font-family:Tangerine;
+
+ }
+  #donorfake {
+    background-image: url(../image/medicine.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ 
+
+ #donorfake h1 {
+    margin-top: 170px;
+    margin-bottom: 0px;
+    margin-right: 130;
+    display: inline-block;
+    font-size: 2.5rem;
+    color:#0f0f0f;
+    text-shadow: 0 0 2px;
+    width: 50%;
+    line-height: 82px; 
+font-weight: 100;
+font-style: italic;
+font-family:Tangerine;
+
+ }
+
+
+
+#donorfake2 {
+    background-image: url(../"image/donate2.jpg");
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
